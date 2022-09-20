@@ -1,20 +1,12 @@
 package tk.mgdev.trn2msg;
 
-import static org.junit.Assert.assertTrue;
+import org.junit.jupiter.api.BeforeAll;
+import org.junit.jupiter.api.Test;
 
-import org.junit.Test;
+import java.util.Objects;
 
-/**
- * Unit test for simple App.
- */
-public class BankTransactionsParserTest
-{
-    /**
-     * Rigorous Test :-)
-     */
-    @Test
-    public void shouldAnswerWithTrue()
-    {
-        assertTrue( true );
-    }
+import static org.junit.jupiter.api.Assertions.assertTrue;
+
+public class BankTransactionsParserTest {
+ 
 }
